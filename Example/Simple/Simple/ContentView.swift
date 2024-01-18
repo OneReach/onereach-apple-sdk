@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-// import OneReachAIAppsSDK
+import OneReachAIAppsSDK
 
 struct ContentView: View {
     var body: some View {
@@ -15,10 +15,9 @@ struct ContentView: View {
                 .imageScale(.large)
 
             Text("Hello, world!")
-            Button(action: {                
-            }, label: {
-                Text("Launch App")
-            })
+            Button("Launch App") {
+                OneReachAIAppsSDK.launchApp(id: "<!--@START_MENU_TOKEN@-->put your app id here<!--@END_MENU_TOKEN@-->")
+            }
         }
         .padding()
     }
