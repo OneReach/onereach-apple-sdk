@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEC6954E2B599C23006452A6 /* OneReachAIAppsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = CEC6954D2B599C23006452A6 /* OneReachAIAppsSDK */; };
 		CEE9D0DF2B4F3C3A008027A4 /* SimpleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9D0DE2B4F3C3A008027A4 /* SimpleApp.swift */; };
 		CEE9D0E12B4F3C3A008027A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9D0E02B4F3C3A008027A4 /* ContentView.swift */; };
 		CEE9D0E32B4F3C3B008027A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE9D0E22B4F3C3B008027A4 /* Assets.xcassets */; };
@@ -53,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEC6954E2B599C23006452A6 /* OneReachAIAppsSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +146,6 @@
 			);
 			name = Simple;
 			packageProductDependencies = (
-				CEC6954D2B599C23006452A6 /* OneReachAIAppsSDK */,
 			);
 			productName = Simple;
 			productReference = CEE9D0DB2B4F3C3A008027A4 /* Simple.app */;
@@ -224,7 +221,6 @@
 			);
 			mainGroup = CEE9D0D22B4F3C3A008027A4;
 			packageReferences = (
-				CEC6954C2B599C23006452A6 /* XCRemoteSwiftPackageReference "apple-sdk" */,
 			);
 			productRefGroup = CEE9D0DC2B4F3C3A008027A4 /* Products */;
 			projectDirPath = "";
@@ -638,25 +634,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		CEC6954C2B599C23006452A6 /* XCRemoteSwiftPackageReference "apple-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/OneReach/apple-sdk.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		CEC6954D2B599C23006452A6 /* OneReachAIAppsSDK */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CEC6954C2B599C23006452A6 /* XCRemoteSwiftPackageReference "apple-sdk" */;
-			productName = OneReachAIAppsSDK;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CEE9D0D32B4F3C3A008027A4 /* Project object */;
 }

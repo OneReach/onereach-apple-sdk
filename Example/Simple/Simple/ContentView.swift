@@ -15,12 +15,16 @@ struct ContentView: View {
                 .imageScale(.large)
 
             Text("Hello, world!")
-            Button("Launch App") {
-                OneReachAIAppsSDK.launchApp(id: "<!--@START_MENU_TOKEN@-->put your app id here<!--@END_MENU_TOKEN@-->")
+            
+            Button("Launch") {
+                let urlValue = "<!--@START_MENU_TOKEN@-->put your App URL here<!--@END_MENU_TOKEN@-->"
+                guard let url = URL(string: urlValue) else { return }
+                OneReachAIAppsSDK.launchApp(url: url)  
             }
         }
         .padding()
     }
+
 }
 
 #Preview {
