@@ -12,8 +12,9 @@ OneReach.ai provides a set of features available on different operating systems 
 ### Supported platforms
 
 Currently `Apps SDK` supports:
-- iOS >14.0
-- iPadOS >14.0
+- iOS >= 14.0
+- iPadOS >= 14.0
+- macOS >= 11.0
 
 ## Apps
 
@@ -43,4 +44,4 @@ guard let url = URL(string: urlValue) else { return }
 OneReachAIAppsSDK.launchApp(url: url)
 ```
 
-On iOS, this will present the modal view controller from the root view controller on the current UIWindow. This function should be called on the main thread since it communicates with the UI layer.
+On iOS, this will present the modal view controller from the root view controller on the current UIWindow. This function should be called on the main thread since it communicates with the UI layer. On macOS, this will present a new window for each launch call. Currently, only a single window at a time is supported. The user has to close the window to open a new one.
