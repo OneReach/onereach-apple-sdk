@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE2BBF662B6D192F0021A5DA /* OneReachAIAppsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = CE2BBF652B6D192F0021A5DA /* OneReachAIAppsSDK */; };
+		CE000E542BA4D2200015CEB3 /* OneReachAIAppsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = CE000E532BA4D2200015CEB3 /* OneReachAIAppsSDK */; };
 		CEE9D0DF2B4F3C3A008027A4 /* SimpleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9D0DE2B4F3C3A008027A4 /* SimpleApp.swift */; };
 		CEE9D0E12B4F3C3A008027A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9D0E02B4F3C3A008027A4 /* ContentView.swift */; };
 		CEE9D0E32B4F3C3B008027A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE9D0E22B4F3C3B008027A4 /* Assets.xcassets */; };
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE2BBF662B6D192F0021A5DA /* OneReachAIAppsSDK in Frameworks */,
+				CE000E542BA4D2200015CEB3 /* OneReachAIAppsSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +148,7 @@
 			);
 			name = Simple;
 			packageProductDependencies = (
-				CE2BBF652B6D192F0021A5DA /* OneReachAIAppsSDK */,
+				CE000E532BA4D2200015CEB3 /* OneReachAIAppsSDK */,
 			);
 			productName = Simple;
 			productReference = CEE9D0DB2B4F3C3A008027A4 /* Simple.app */;
@@ -224,7 +224,7 @@
 			);
 			mainGroup = CEE9D0D22B4F3C3A008027A4;
 			packageReferences = (
-				CE2BBF642B6D192F0021A5DA /* XCRemoteSwiftPackageReference "onereach-apple-sdk" */,
+				CE000E522BA4D2200015CEB3 /* XCRemoteSwiftPackageReference "onereach-apple-sdk" */,
 			);
 			productRefGroup = CEE9D0DC2B4F3C3A008027A4 /* Products */;
 			projectDirPath = "";
@@ -640,20 +640,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		CE2BBF642B6D192F0021A5DA /* XCRemoteSwiftPackageReference "onereach-apple-sdk" */ = {
+		CE000E522BA4D2200015CEB3 /* XCRemoteSwiftPackageReference "onereach-apple-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/OneReach/onereach-apple-sdk.git";
+			repositoryURL = "https://github.com/OneReach/onereach-apple-sdk";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.1.0;
+				minimumVersion = 2.1.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CE2BBF652B6D192F0021A5DA /* OneReachAIAppsSDK */ = {
+		CE000E532BA4D2200015CEB3 /* OneReachAIAppsSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CE2BBF642B6D192F0021A5DA /* XCRemoteSwiftPackageReference "onereach-apple-sdk" */;
+			package = CE000E522BA4D2200015CEB3 /* XCRemoteSwiftPackageReference "onereach-apple-sdk" */;
 			productName = OneReachAIAppsSDK;
 		};
 /* End XCSwiftPackageProductDependency section */
