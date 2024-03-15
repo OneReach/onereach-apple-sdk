@@ -11,228 +11,228 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "OneReachAIDomainCalls",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIDomainCalls-1.1.0.zip",
-            checksum: "22ef252586c1704efa5293be57f165bcf7cb99fa7661b8016bab181106b63688"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIDomainCalls-2.1.2.zip",
+            checksum: "879fba9d2d4d8d6656016446c8db67c812cecccee7e8e2788029335ed3aef304"
         ),
         .binaryTarget(
             name: "OneReachAIFeatureCore",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIFeatureCore-1.1.0.zip",
-            checksum: "e72132aed05629704d239111adf436c0ada23e44256651b69b2c7a19cabb9df9"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIFeatureCore-2.1.2.zip",
+            checksum: "1ad243425c0066b9c085ef91768543f2ae34b006e597928471015c17501d5d5a"
         ),
         .binaryTarget(
             name: "OneReachAIRedux",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIRedux-1.1.0.zip",
-            checksum: "bff788c26441abae65fbedad10ac0da44d4fab5522a9b4c0d1f18c4f5af3807b"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIRedux-2.1.2.zip",
+            checksum: "872cfddbc898af6f8100e58356195bbfe88262c2fa1a47e20f567a5210e517be"
         ),
         .binaryTarget(
             name: "OneReachAIXState",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIXState-1.1.0.zip",
-            checksum: "8532186d9bf090c70dba87ff47343ab37af66d53b098d0476e12a13b6af83553"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIXState-2.1.2.zip",
+            checksum: "4393a59c0385119446ebb3c7815413b926de4bee29201dfad0242db3264d5698"
         ),
         .binaryTarget(
             name: "OneReachAITools",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAITools-1.1.0.zip",
-            checksum: "9416d5ca2c3c6fc2f81b2e805daa6a8e6f092eb4c27e5135699bfe4a4d8a7271"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAITools-2.1.2.zip",
+            checksum: "2f821175d99bde51e5029fea4571842550ef9008d2de593a1a5a9cb2bbcdc0f5"
         ),
         .binaryTarget(
             name: "OneReachAIAppsDomainApp",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsDomainApp-1.1.0.zip",
-            checksum: "956a2ec04b42579bc754cae87fa9d248e7b99b6d81eac280c84b8c64b834bd16"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsDomainApp-2.1.2.zip",
+            checksum: "e111063cd4244ef495ae9332008197aff5bacfa284b2d1eb11a9c2b195386c7a"
         ),
         .binaryTarget(
             name: "OneReachAIAppsDomainAppEnvironment",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsDomainAppEnvironment-1.1.0.zip",
-            checksum: "b86d9e4977b187341b4c96b829eadf7cb2d1e9841c5365b42ed5828a68bbed29"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsDomainAppEnvironment-2.1.2.zip",
+            checksum: "0c3512ff354210c04421260bcf5daa115f9d36ce4e7f43b24785cce03378b9f1"
         ),
         .binaryTarget(
             name: "OneReachAIAppsDomainImage",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsDomainImage-1.1.0.zip",
-            checksum: "b98b5583c4a45a4dbb4028551e6f97efeb8e4b1cf7d2c936f6ac72ff39486f33"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsDomainImage-2.1.2.zip",
+            checksum: "b189e003d7caa6137905fedf801040ab41f6f4c670bbe33109874a5f4eeb9ca0"
         ),
         .binaryTarget(
             name: "OneReachAIAppsDomainNotification",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsDomainNotification-1.1.0.zip",
-            checksum: "573a94b7f4570524e5354dc0e07cb02944a43766b06d22607f3fe15b131d288e"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsDomainNotification-2.1.2.zip",
+            checksum: "976f5d0300c978cd34756d1649c0ab40c9fe26ebbc28bf3484757ab07b88d1c7"
         ),
         .binaryTarget(
             name: "OneReachAIOSService",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIOSService-1.1.0.zip",
-            checksum: "a7434c1d7b0907987d31c03b3226c145b6937f473fe65c6254378c63c5c3c161"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIOSService-2.1.2.zip",
+            checksum: "2ea4ef71900a4890c814a08bd0871ad11bfb0471e964154c56e2e15430703666"
         ),
         .binaryTarget(
             name: "OneReachAIOSCoreService",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIOSCoreService-1.1.0.zip",
-            checksum: "0c29908a2ab1b94694a0bd40dd065152926cfece9834e4d61e2a703fc33b1b49"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIOSCoreService-2.1.2.zip",
+            checksum: "9759052af90f42c4753d86a25f2b1f8e135c71bb02774f09a0739b3f22e5b55f"
         ),
         .binaryTarget(
             name: "OneReachAIiOSService",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIiOSService-1.1.0.zip",
-            checksum: "2363020e0f70adb298c83d6a4bd41d0ea7d4dc3e59818a75d9799ef5f23abd1e"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIiOSService-2.1.2.zip",
+            checksum: "41aa8cb33ef066f93970f5a9fb6e140c185af93a86e48ff12af807f6120f2129"
         ),
         .binaryTarget(
             name: "OneReachAImacOSService",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAImacOSService-1.1.0.zip",
-            checksum: "919346e22cd9b3efd60d2e8f5c7f2c096db6a59d943c75a6d182ef7f395d653c"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAImacOSService-2.1.2.zip",
+            checksum: "a9aa6423d43bed5be8cc484d659822321b5fefdffb0f5146f6c557d7343d3ae8"
         ),
         .binaryTarget(
             name: "OneReachAIOSStoreService",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIOSStoreService-1.1.0.zip",
-            checksum: "6181122f978de433f3de6080a61a7083d467f25287cb76b516a39b20330f548a"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIOSStoreService-2.1.2.zip",
+            checksum: "685427ac34e609cd9a3dd6192858d5d6917bff693c9c19838190e56c77c42f97"
         ),
         .binaryTarget(
             name: "OneReachAIFeatureCalls",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIFeatureCalls-1.1.0.zip",
-            checksum: "2100f6c34c352f5cd89fe8b13929d94dc90346f0f00d3e07c48e32a8b584eaa3"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIFeatureCalls-2.1.2.zip",
+            checksum: "e7ac5b957417975a8f55d4e8584b4d4652ad4a9fa4933e0f5fc11f4fa5c855c2"
         ),
         .binaryTarget(
             name: "OneReachAIAppsFeatureAppEnvironmentsAPI",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureAppEnvironmentsAPI-1.1.0.zip",
-            checksum: "9398e0699e9e353a752113561acec63a7ef0716bb50892b61a43db72a506b1ab"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureAppEnvironmentsAPI-2.1.2.zip",
+            checksum: "63c7688307f8a5cd6299ec4860c87099774760f6617c7cd4e606a6f747f75c7d"
         ),
         .binaryTarget(
             name: "OneReachAIAppsFeatureAppsAPI",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureAppsAPI-1.1.0.zip",
-            checksum: "95033bca05c17548847748d9ebe97ecf78c947003d7126fd487c8447bd85cbc5"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureAppsAPI-2.1.2.zip",
+            checksum: "005133034b5e2a955a53499574fb2ddff923997bb47ca09ac563c9c34a4dc6cf"
         ),
         .binaryTarget(
             name: "OneReachAIAppsFeatureNotificationsAPI",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureNotificationsAPI-1.1.0.zip",
-            checksum: "6cbb284ec70be378783fa49b0f9ce7cdce73efbe6181d2d43f3a82f3db835be1"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureNotificationsAPI-2.1.2.zip",
+            checksum: "8a69818904d19fd005582e010330cd51d5d3b52a45b4058aa62e131f6d70e2ec"
         ),
         .binaryTarget(
             name: "OneReachAIAppsFeatureCameraAPI",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureCameraAPI-1.1.0.zip",
-            checksum: "9074f606f0d6e7f3e0050446a3a621f65e865b5fbf1f42f6cd700e5e5ea830c9"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureCameraAPI-2.1.2.zip",
+            checksum: "5c7ba803974e04cea858cfb1fa63687c4a7c173bcf1ddc5df9d172477bd11aa0"
         ),
         .binaryTarget(
             name: "OneReachAIAppsFeatureWebAppAPI",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureWebAppAPI-1.1.0.zip",
-            checksum: "6eb990e44c8832a64f45312856c921e6073ed80930644431a6cd9ac9da667e0f"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureWebAppAPI-2.1.2.zip",
+            checksum: "4f8487bf7c0da607af23604f1af39d9738ecc6df88363d1d29fa0e78a9036157"
         ),
         .binaryTarget(
             name: "OneReachAIAppsFeatureVoiceAppAPI",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureVoiceAppAPI-1.1.0.zip",
-            checksum: "a78b7823bb15f60d1bcb2ba10cfcfa35cf8411a4ed67b546970fe1fafe4e326a"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureVoiceAppAPI-2.1.2.zip",
+            checksum: "550c4daaa69f2c8bd17629ae8579392e762251bb070ad671f27dbcdb089d5aac"
         ),
         .binaryTarget(
             name: "OneReachAIAppsFeatureBotDrivenAppAPI",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureBotDrivenAppAPI-1.1.0.zip",
-            checksum: "269e57047f1d6a86d82b9d42ace2ad6c174d346e8489ecc2441ca4124eb20012"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureBotDrivenAppAPI-2.1.2.zip",
+            checksum: "fa2a395c4168299391b1c7439fad8f58616d52defe2a63c215a120f4e82be8e1"
         ),
         .binaryTarget(
             name: "OneReachAIAppsFeatureCallsAPI",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureCallsAPI-1.1.0.zip",
-            checksum: "39680b18a59029d20666d47371a83be923c1ddb60649c2b473a2e677ca27c207"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureCallsAPI-2.1.2.zip",
+            checksum: "509d76cc204a504722cdc5a579df93f73bca04b7c7a812233b3a45eb6f29bec9"
         ),
         .binaryTarget(
             name: "OneReachAIAppsFeatureAppEnvironments",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureAppEnvironments-1.1.0.zip",
-            checksum: "a0ad33e21952a8069749f36cdd4f9458023168a844fc35cf9df24f5ef7165fab"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureAppEnvironments-2.1.2.zip",
+            checksum: "de29a7bd9f54d1702a0b54ff7eaf181f66ba7f3d58f778859083dc2fc420aad4"
         ),
         .binaryTarget(
             name: "OneReachAIAppsFeatureApps",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureApps-1.1.0.zip",
-            checksum: "c9a84bc01ae0271f73c700748ba1d78d0b1de3894824a4825f1c35107799b826"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureApps-2.1.2.zip",
+            checksum: "4fef9ab8871b2d78c658447b1832d28148b0c376d6d2940fbede7e006847d32f"
         ),
         .binaryTarget(
             name: "OneReachAIAppsFeatureNotifications",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureNotifications-1.1.0.zip",
-            checksum: "de688a4ae61faa2e674ba4d48d48e244fdba982e91a0b2a211bc55882022cb11"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureNotifications-2.1.2.zip",
+            checksum: "059420ac54cbd04b289d7bcef01e28cf00b02edbaf5885a61f09eb621d84a018"
         ),
         .binaryTarget(
             name: "OneReachAIAppsFeatureLogging",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureLogging-1.1.0.zip",
-            checksum: "7c74de3921062d9a4b1aa1ae1ee27ec7294a38e13b300d95167c5866684f78f9"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureLogging-2.1.2.zip",
+            checksum: "7da431e973f890a870d6aa3e5e03eba07f22985fcc59283b463929f93cb8cc79"
         ),
         .binaryTarget(
             name: "OneReachAIAppsFeatureCore",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureCore-1.1.0.zip",
-            checksum: "14fa6fb40ad7930643fb92da6a75d991b70cf0de654e1e3e6f5e414c7395c44b"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureCore-2.1.2.zip",
+            checksum: "3a3c8fe2d51dbc3d3dca3f7ca6260b78a93339f7df0107699a1bbea3dbc4e428"
         ),
         .binaryTarget(
             name: "OneReachAIAppsFeatureCoreUI",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureCoreUI-1.1.0.zip",
-            checksum: "e71e9ff931fa6e89e1d6606aaf06906b124cdafed271b1c29c1f6196a82d46a6"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureCoreUI-2.1.2.zip",
+            checksum: "de1ff9938ac715bcc1aacc3687744a0b3ec734d6c29e649742058af10f25133e"
         ),
         .binaryTarget(
             name: "OneReachAIAppsApplication",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsApplication-1.1.0.zip",
-            checksum: "4eaba787579c73c0c761ccf4e7cc85da8f0d4d4a8fa08691e17da59267ea5780"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsApplication-2.1.2.zip",
+            checksum: "7555e6c35f9568570cfd57c94b6540f817a96022f38f305289090e7a2f24fa9f"
         ),
         .binaryTarget(
             name: "OneReachAIAppsFeatureWebApp",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureWebApp-1.1.0.zip",
-            checksum: "fcf5259bc27cc29c989d642f8d572f45b12c1f1bfcf27c1f117f9e3c558f453a"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureWebApp-2.1.2.zip",
+            checksum: "9ce9ee74ab01fa0014905fa04e4955fbaceb8eeb1f71aea72a858406552f91e0"
         ),
         .binaryTarget(
             name: "OneReachAIAppsUIComponents",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsUIComponents-1.1.0.zip",
-            checksum: "14cc1620c1be719d0c713467dc3906ba1b1c9ec036f069aba58ad576d3e06382"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsUIComponents-2.1.2.zip",
+            checksum: "e53873f839a1394665dfedf65a2bc92074a952eade863b370ff8720ef41ed212"
         ),
         .binaryTarget(
             name: "OneReachAIDesignSystem",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIDesignSystem-1.1.0.zip",
-            checksum: "079d15524623d5d84af036603ffee14f35a0e6349511729e94c624ffea0fdd9b"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIDesignSystem-2.1.2.zip",
+            checksum: "5ac2854b76ba29772cd4655228f551555513360562c6cefb5c94cc7d85f4f6bc"
         ),
         .binaryTarget(
             name: "OneReachAIiOSUIComponents",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIiOSUIComponents-1.1.0.zip",
-            checksum: "b1d0657a4db3d5543181b8e178a7da94e3faeb71a29b7de5c0b7a2e99ec37c6c"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIiOSUIComponents-2.1.2.zip",
+            checksum: "1ac61c3734c347be7b77a460baa466476ae42195a7ed6ce06ea45975ba2767cf"
         ),
         .binaryTarget(
             name: "OneReachAIAppsFeatureWebAppUI",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureWebAppUI-1.1.0.zip",
-            checksum: "5c8e3ff46b05393982a55b511d0ee13798ab210d3f89663396c802f328c8da8b"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureWebAppUI-2.1.2.zip",
+            checksum: "203c69fe3fa581b51af8cbc756b6938ef99915a79c4fdf23c7d88e7f0140ef08"
         ),
         .binaryTarget(
             name: "OneReachAIAppsDataStore",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsDataStore-1.1.0.zip",
-            checksum: "1f9b204d1a1ed15f553d6e09107c2c5c04db996d327b4a228b4c94f79b031743"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsDataStore-2.1.2.zip",
+            checksum: "3b5a4e7ff01b9fefd2f33e8c33b38b1cd5e3bd80b0adfd1635392c2053a91996"
         ),
         .binaryTarget(
             name: "OneReachAIAppsUI",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsUI-1.1.0.zip",
-            checksum: "dcd3c42e4b74bfc0c2855f3010b38fbe49c2240964656e608f1a94c47a98ae9b"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsUI-2.1.2.zip",
+            checksum: "69fa948559eccae58f8dca63002c9cee196df30ea03c385705d64ca48e521717"
         ),
         .binaryTarget(
             name: "OneReachAIAppsiOSApplication",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsiOSApplication-1.1.0.zip",
-            checksum: "945d0f6a5ed0ae766f90332caf50a89f106d55aede5c29d9f185d1fe11a7cd66"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsiOSApplication-2.1.2.zip",
+            checksum: "ca9c29fd2d86160991628f9ce0b052f96736b4ff3c8b0090981cf122ef02b5f7"
         ),
         .binaryTarget(
             name: "OneReachAIAppsiOSSDK",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsiOSSDK-1.1.0.zip",
-            checksum: "93f5ad49d55c91ae481506ac88824d590482ddcd55e2972f6f28f577d6399d2a"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsiOSSDK-2.1.2.zip",
+            checksum: "654423b6f24861713ff1b64f61f3f6af1ad2c19018be9ce905c0317244cad04f"
         ),
         .binaryTarget(
             name: "OneReachAIAppsFeatureSingleAppApplication",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureSingleAppApplication-1.1.0.zip",
-            checksum: "30f468b2410a375255464f7bcdbe6f77d2b3416633619c7930c1b0de96ab7acc"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureSingleAppApplication-2.1.2.zip",
+            checksum: "3dc7e315b4fabc209ed200e22d244a562bb6852882f366b5fe01154659cbb175"
         ),
         .binaryTarget(
             name: "OneReachAIAppsFeatureMultiAppApplication",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureMultiAppApplication-1.1.0.zip",
-            checksum: "43a27a518467f636c2060dc35e651f6ac03b761102dd89e1e2bee71131f78e43"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureMultiAppApplication-2.1.2.zip",
+            checksum: "307bb5e17ecee5f71a1cea19149053c1cca744f47cdb71399dc72547962af97e"
         ),
         .binaryTarget(
             name: "OneReachAIAppsFeatureSingleAppApplicationiOSUI",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureSingleAppApplicationiOSUI-1.1.0.zip",
-            checksum: "e0ca4141ea91255d0efad586a332e9454063c0b612cc822db199222648f12a3d"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureSingleAppApplicationiOSUI-2.1.2.zip",
+            checksum: "7b244e9886a7967f139e93652a37d810de26a6a2236c7196db2714e207599c87"
         ),
         .binaryTarget(
             name: "OneReachAIAppsFeatureMultiAppApplicationiOSUI",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureMultiAppApplicationiOSUI-1.1.0.zip",
-            checksum: "444365a8e9b21dcb05eee587e6f76ddc963e00f4e7688a746a61bafe7c300d97"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsFeatureMultiAppApplicationiOSUI-2.1.2.zip",
+            checksum: "8c6a2446e87f227ce9acfd345284ff0600b7cb20f8b0532b812518f40bd61aa7"
         ),
         .binaryTarget(
             name: "OneReachAIAppsmacOSSDK",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsmacOSSDK-1.1.0.zip",
-            checksum: "50245f51ecdba6fbd3c6d7f5c8d14c803d962e05dd70d400f8d95d288c9f0a5e"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsmacOSSDK-2.1.2.zip",
+            checksum: "a02985863ab7ceec2bdfabb6d431da2b3995e2d658045036e13f176cd2732c29"
         ),
         .binaryTarget(
             name: "OneReachAIAppsSDK",
-            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsSDK-1.1.0.zip",
-            checksum: "1f66b65b8843542233c43fc6a806110763002e8e30780cb77e7272c413764a94"
+            url: "https://files.staging.api.onereach.ai/public/1b3bebb7-e882-4f1e-a74b-ee381bfa69d6/sdk/apple/OneReachAIAppsSDK-2.1.2.zip",
+            checksum: "3950c1df3b647f79002a20fcc3a4b77531b3333070900f1d728b7aaaacc7b5a5"
         ),
         .target(
             name: "OneReachAIAppsSDKTarget",
